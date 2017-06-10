@@ -76,6 +76,7 @@ class InventoryType{
 			static::ENCHANT_TABLE => new InventoryType(2, "Enchant", WindowTypes::ENCHANTMENT), //1 INPUT/OUTPUT, 1 LAPIS
 			static::BREWING_STAND => new InventoryType(4, "Brewing", WindowTypes::BREWING_STAND), //1 INPUT, 3 POTION
 			static::ANVIL =>         new InventoryType(3, "Anvil", WindowTypes::ANVIL), //2 INPUT, 1 OUTP
+			static::ENDER_CHEST =>   new InventoryType(27, "Ender Chest", WindowTypes::CONTAINER)
 		];
 	}
 
