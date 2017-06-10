@@ -198,6 +198,7 @@ class Block extends Position implements BlockIds, Metadatable{
 			self::$list[self::EMERALD_ORE] = EmeraldOre::class;
 			self::$list[self::TRIPWIRE_HOOK] = TripwireHook::class;
 			self::$list[self::TRIPWIRE] = Tripwire::class;
+			self::$list[self::ENDER_CHEST] = EnderChest::class;
 			self::$list[self::EMERALD_BLOCK] = Emerald::class;
 			self::$list[self::SPRUCE_WOOD_STAIRS] = SpruceWoodStairs::class;
 			self::$list[self::BIRCH_WOOD_STAIRS] = BirchWoodStairs::class;
