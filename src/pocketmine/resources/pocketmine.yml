@@ -86,7 +86,7 @@ network:
 developer:
   incompatible-plugins:
     load: true
-  folder-plugin-loader: true #TODO
+  folder-plugin-loader: true
   devtools-commands: true #TODO
 
 debug:
